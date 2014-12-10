@@ -13,6 +13,10 @@
 		264A5F6C1A382C6300597A52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264A5F6B1A382C6300597A52 /* Images.xcassets */; };
 		264A5F6F1A382C6300597A52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 264A5F6D1A382C6300597A52 /* LaunchScreen.xib */; };
 		264A5F7B1A382C6300597A52 /* _HandsOfPokerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A5F7A1A382C6300597A52 /* _HandsOfPokerTests.swift */; };
+		264A5F851A382DB500597A52 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A5F841A382DB500597A52 /* Constants.swift */; };
+		264A5F871A382DEA00597A52 /* CardStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A5F861A382DEA00597A52 /* CardStruct.swift */; };
+		264A5F891A382E0D00597A52 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A5F881A382E0D00597A52 /* Factory.swift */; };
+		264A5F8B1A382E3600597A52 /* PokerLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264A5F8A1A382E3600597A52 /* PokerLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		264A5F741A382C6300597A52 /* 3HandsOfPokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3HandsOfPokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		264A5F791A382C6300597A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		264A5F7A1A382C6300597A52 /* _HandsOfPokerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HandsOfPokerTests.swift; sourceTree = "<group>"; };
+		264A5F841A382DB500597A52 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		264A5F861A382DEA00597A52 /* CardStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStruct.swift; sourceTree = "<group>"; };
+		264A5F881A382E0D00597A52 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		264A5F8A1A382E3600597A52 /* PokerLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +86,10 @@
 			isa = PBXGroup;
 			children = (
 				264A5F641A382C6300597A52 /* AppDelegate.swift */,
+				264A5F841A382DB500597A52 /* Constants.swift */,
+				264A5F861A382DEA00597A52 /* CardStruct.swift */,
+				264A5F881A382E0D00597A52 /* Factory.swift */,
+				264A5F8A1A382E3600597A52 /* PokerLogic.swift */,
 				264A5F661A382C6300597A52 /* ViewController.swift */,
 				264A5F681A382C6300597A52 /* Main.storyboard */,
 				264A5F6B1A382C6300597A52 /* Images.xcassets */,
@@ -214,6 +226,10 @@
 			files = (
 				264A5F671A382C6300597A52 /* ViewController.swift in Sources */,
 				264A5F651A382C6300597A52 /* AppDelegate.swift in Sources */,
+				264A5F8B1A382E3600597A52 /* PokerLogic.swift in Sources */,
+				264A5F871A382DEA00597A52 /* CardStruct.swift in Sources */,
+				264A5F851A382DB500597A52 /* Constants.swift in Sources */,
+				264A5F891A382E0D00597A52 /* Factory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
